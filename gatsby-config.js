@@ -20,14 +20,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: "UA-173035710-2",
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
+        short_name: `Portfolio`,
         description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
         start_url: `/`,
         background_color: `#141821`,
